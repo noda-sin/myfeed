@@ -1,0 +1,11 @@
+pyaml
+pytz
+apscheduler
+requests
+feedparser
+python-dateutil
+openai
+python-dotenv
+beautifulsoup4
+readability-lxml
+lxml_html_clean

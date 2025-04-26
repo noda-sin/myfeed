@@ -1,0 +1,14 @@
+timezone: Asia/Tokyo
+openai_model: "gpt-4o"
+feeds:
+- url: https://dbweekly.com/rss/
+  tags: ["db", "general"]
+- url: https://database.news/feed.xml
+  tags: ["db", "general"]
+- url: https://postgresweekly.com/rss/
+  tags: ["postgres"]
+- url: https://blog.pingcap.com/feed.xml
+  tags: ["tidb"]
+- url: https://docs.yugabyte.com/latest/release-notes/rss.xml
+  tags: ["yugabytedb"]
+max_items_per_feed: 20
