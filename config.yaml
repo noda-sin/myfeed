@@ -11,18 +11,18 @@ feeds:
     url: https://mariadb.com/resources/blog/feed/
   - name: SQLite Release Notes
     url: https://sqlite.org/changes.html
-  # - name: TiDB Blog
-  #   url: https://pingcap.com/blog/feed.xml
+  - name: TiDB Blog
+    url: https://www.pingcap.com/feed/
   - name: Yugabyte Distributed SQL Blog
     url: https://www.yugabyte.com/feed/
   # - name: Cockroach Labs Blog
-  #   url: https://www.cockroachlabs.com/blog/feed/
-  # - name: Vitess / PlanetScale Blog
-  #   url: https://planetscale.com/blog.rss
-  # - name: ClickHouse Blog
-  #   url: https://clickhouse.com/blog/rss.xml
-  # - name: DuckDB Blog
-  #   url: https://duckdb.org/news/rss.xml
+  #   url: https://www.cockroachlabs.com/blog/
+  - name: Vitess / PlanetScale Blog
+    url: https://planetscale.com/blog/feed.atom
+  - name: ClickHouse Blog
+    url: https://clickhouse.com/rss.xml
+  - name: DuckDB Blog
+    url: https://duckdb.org/feed.xml
 
   - name: AWS Database Blog
     url: https://aws.amazon.com/blogs/database/feed/
@@ -34,8 +34,8 @@ feeds:
     url: https://redis.com/feed/
   # - name: FoundationDB Blog
   #   url: https://apple.github.io/foundationdb/blog/feed.xml
-  # - name: Valkey Blog
-  #   url: https://valkey.io/blog/rss.xml
+  - name: Valkey Blog
+    url: https://valkey.io/atom.xml
 
   # - name: Google Cloud Databases Blog
   #   url: https://cloud.google.com/blog/products/databases/rss.xml
@@ -57,12 +57,12 @@ feeds:
   # - name: Uber Reliability Engineering
   #   url: https://uber.github.io/ringpop/rss.xml
 
-  # - name: Netflix Tech Blog (Database)
-  #   url: https://netflixtechblog.com/tagged/database/rss
-  # - name: Uber Engineering Blog
-  #   url: https://eng.uber.com/feed/
+  - name: Netflix Tech Blog (Database)
+    url: https://medium.com/feed/netflix-techblog/tagged/database
+  - name: Uber Engineering Blog
+    url: https://www.uber.com/ja-JP/blog/rss/
   # - name: LinkedIn Engineering
-  #   url: https://engineering.linkedin.com/blog.rss
+  #   url: https://engineering.linkedin.com/
   # - name: Stripe Engineering
   #   url: https://stripe.com/blog/engineering/rss
   - name: GitHub Engineering
