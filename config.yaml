@@ -1,14 +1,96 @@
 timezone: Asia/Tokyo
 openai_model: "gpt-4o"
 feeds:
-- url: https://dbweekly.com/rss/
-  tags: ["db", "general"]
-- url: https://database.news/feed.xml
-  tags: ["db", "general"]
-- url: https://postgresweekly.com/rss/
-  tags: ["postgres"]
-- url: https://blog.pingcap.com/feed.xml
-  tags: ["tidb"]
-- url: https://docs.yugabyte.com/latest/release-notes/rss.xml
-  tags: ["yugabytedb"]
+  - name: Database News
+    url: https://database.news/feed.xml
+  - name: Planet PostgreSQL
+    url: https://planet.postgresql.org/rss20.xml
+  - name: MySQL Server Blog
+    url: https://blogs.oracle.com/mysql/rss
+  - name: MariaDB Blog
+    url: https://mariadb.com/resources/blog/feed/
+  - name: SQLite Release Notes
+    url: https://sqlite.org/changes.html
+  # - name: TiDB Blog
+  #   url: https://pingcap.com/blog/feed.xml
+  - name: Yugabyte Distributed SQL Blog
+    url: https://www.yugabyte.com/feed/
+  # - name: Cockroach Labs Blog
+  #   url: https://www.cockroachlabs.com/blog/feed/
+  # - name: Vitess / PlanetScale Blog
+  #   url: https://planetscale.com/blog.rss
+  # - name: ClickHouse Blog
+  #   url: https://clickhouse.com/blog/rss.xml
+  # - name: DuckDB Blog
+  #   url: https://duckdb.org/news/rss.xml
+
+  - name: AWS Database Blog
+    url: https://aws.amazon.com/blogs/database/feed/
+  # - name: MongoDB Developer Blog
+  #   url: https://www.mongodb.com/developer/rss/
+  # - name: Apache Cassandra Blog
+  #   url: https://cassandra.apache.org/_/blog.xml
+  - name: Redis Labs Engineering
+    url: https://redis.com/feed/
+  # - name: FoundationDB Blog
+  #   url: https://apple.github.io/foundationdb/blog/feed.xml
+  # - name: Valkey Blog
+  #   url: https://valkey.io/blog/rss.xml
+
+  # - name: Google Cloud Databases Blog
+  #   url: https://cloud.google.com/blog/products/databases/rss.xml
+  # - name: Azure SQL / Cosmos DB Blog
+  #   url: https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=AzureSQLBlog
+  # - name: Alibaba Cloud Database Blog
+  #   url: https://www.alibabacloud.com/blog/database/feed
+  - name: Cloudflare Blog (Databaseタグ)
+    url: https://blog.cloudflare.com/tag/database/rss/
+
+  - name: Percona Database Performance Blog
+    url: https://www.percona.com/blog/feed/
+  - name: High Scalability
+    url: http://feeds.feedburner.com/HighScalability
+  - name: Brendan Gregg Blog
+    url: https://www.brendangregg.com/blog/rss.xml
+  # - name: Datadog Engineering
+  #   url: https://www.datadoghq.com/blog/engineering/rss/
+  # - name: Uber Reliability Engineering
+  #   url: https://uber.github.io/ringpop/rss.xml
+
+  # - name: Netflix Tech Blog (Database)
+  #   url: https://netflixtechblog.com/tagged/database/rss
+  # - name: Uber Engineering Blog
+  #   url: https://eng.uber.com/feed/
+  # - name: LinkedIn Engineering
+  #   url: https://engineering.linkedin.com/blog.rss
+  # - name: Stripe Engineering
+  #   url: https://stripe.com/blog/engineering/rss
+  - name: GitHub Engineering
+    url: https://github.blog/category/engineering/feed/
+  - name: Airbnb Tech Blog
+    url: https://medium.com/feed/airbnb-engineering
+  - name: Pinterest Engineering
+    url: https://medium.com/feed/pinterest-engineering
+  # - name: Shopify Engineering
+  #   url: https://shopify.engineering/rss.xml
+  - name: Cloudflare Engineering
+    url: https://blog.cloudflare.com/tag/engineering/rss/
+
+  - name: Planet MySQL
+    url: https://planet.mysql.com/rss20.xml
+  # - name: Planet Cassandra
+  #   url: https://planetcassandra.org/blog/feed/
+  - name: Database Weekly
+    url: https://dbweekly.com/rss/
+  # - name: Morning Paper
+  #   url: https://blog.acolyer.org/feed/
+
+  - name: DBMS Musings
+    url: https://dbmsmusings.blogspot.com/feeds/posts/default
+  # - name: The Database Lab (Andy Pavlo)
+  #   url: https://andy-pavlo.com/rss.xml
+  - name: MIT InfoLab Blog
+    url: https://www.csail.mit.edu/rss.xml
+  - name: SIGMOD Blog
+    url: https://sigmod.org/sigmod-blog/feed/
 max_items_per_feed: 20
